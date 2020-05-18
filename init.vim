@@ -125,3 +125,4 @@ nnoremap <leader>bk :Vex<cr><c-w>K
 nnoremap <leader>bl :Vex<cr><c-w>L
 nnoremap <leader>vr :vertical resize<space>
 nnoremap <leader>hr :resize<space>
+nnoremap <leader>sn :UltiSnipsEdit<cr>
