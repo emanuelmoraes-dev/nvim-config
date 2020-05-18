@@ -10,31 +10,26 @@ Plug 'jiangmiao/auto-pairs' " add pairs
 Plug 'yuttie/comfortable-motion.vim' " confortable scroll
 Plug 'tomtom/tcomment_vim' " comment
 
-" ========== ultisnips (create custom snippets) ==========
-
+" ultisnips (create custom snippets)
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
-" ========== fzf (search and show files in menu to open) ==========
-
+" fzf (search and show files in menu to open)
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
-" ========== ncm2 (auto complete) ==========
+" ncm2 (auto complete)
 
 Plug 'ncm2/ncm2'
 Plug 'roxma/nvim-yarp'
 
-" enable ncm2 for all buffers
-autocmd BufEnter * call ncm2#enable_for_buffer()
+autocmd BufEnter * call ncm2#enable_for_buffer() " enable ncm2 for all buffers
 
-" :help Ncm2PopupOpen for more information
-set completeopt=noinsert,menuone,noselect
+set completeopt=noinsert,menuone,noselect " :help Ncm2PopupOpen for more information
 
 " list of sources: https://github.com/ncm2/ncm2/wiki
 
 " general purpose
-
 Plug 'ncm2/ncm2-bufword'
 Plug 'ncm2/ncm2-path'
 Plug 'ncm2/ncm2-github'
@@ -54,7 +49,7 @@ Plug 'loonies/ncm2-ledger'
 "Plug 'ncm2-yoink'
 
 " CSS
-Plug 'ncm2/ncm2-cssomni'
+"Plug 'ncm2/ncm2-cssomni'
 
 " JavaScript
 "Plug 'ncm2/ncm2-tern',  {'do': 'npm install'}
@@ -66,31 +61,24 @@ Plug 'ncm2/ncm2-cssomni'
 "Plug 'ncm2/ncm2-jedi'
 
 " C/C++
-Plug 'ncm2/ncm2-pyclang'
-autocmd FileType c,cpp nnoremap <buffer> gd :<c-u>call ncm2_pyclang#goto_declaration()<cr>
+"Plug 'ncm2/ncm2-pyclang'
+"autocmd FileType c,cpp nnoremap <buffer> gd :<c-u>call ncm2_pyclang#goto_declaration()<cr>
 
 " Latex
-Plug 'lervag/vimtex'
+"Plug 'lervag/vimtex'
 
 " VimScript
-Plug 'ncm2/ncm2-vim'
-Plug 'Shougo/neco-vim'
+"Plug 'ncm2/ncm2-vim'
+"Plug 'Shougo/neco-vim'
 
 " PHP
 "Plug 'phpactor/ncm2-phpactor',  {'do': 'composer install', 'for': 'php'}
 
 " Java
-Plug 'ObserverOfTime/ncm2-jc2', {'for': ['java', 'jsp']}
+"Plug 'ObserverOfTime/ncm2-jc2', {'for': ['java', 'jsp']}
 "Plug 'artur-shaik/vim-javacomplete2', {'for': ['java', 'jsp']}
 
-" ========== ncm2 ==========
-
 call plug#end()
-
-" ---------- config ----------
-
-let g:UltiSnipsEditSplit = 'vertical'
-let g:UltiSnipsSnippetsDir = '~/.config/nvim/UltiSnips'
 
 " ---------- themes ----------
 
@@ -108,6 +96,7 @@ set mouse=a
 set inccommand=split
 set nowrap
 set sidescroll=1
+set formatoptions-=cro
 
 " -------- keymap --------
 
@@ -126,3 +115,13 @@ nnoremap <leader>bl :Vex<cr><c-w>L
 nnoremap <leader>vr :vertical resize<space>
 nnoremap <leader>hr :resize<space>
 nnoremap <leader>sn :UltiSnipsEdit<cr>
+nnoremap <leader>ma :set mouse=a<cr>
+nnoremap <leader>mc :set mouse=c<cr>
+
+" ---------- config ----------
+
+let g:UltiSnipsEditSplit = 'vertical'
+let g:UltiSnipsSnippetsDir = '~/.config/nvim/UltiSnips'
+
+let g:UltiSnipsJumpForwardTrigger = "<c-j>"
+let g:UltiSnipsJumpBackwardTrigger = "<c-k>"

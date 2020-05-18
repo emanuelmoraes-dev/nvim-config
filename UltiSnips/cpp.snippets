@@ -1,0 +1,28 @@
+snippet cheader "define header file" b
+#ifndef $1_H_INCLUDED
+#define $1_H_INCLUDED
+
+$0
+
+#endif // $1_H_INCLUDED
+endsnippet
+
+snippet cgen "C Template" b
+#include <stdio.h>
+
+int main(int argc, char* argv[]) {
+	$0
+	return 0;
+}
+endsnippet
+
+snippet cpp "C++ Template" b
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char* argv[]) {
+	$0
+	return 0;
+}
+endsnippet
