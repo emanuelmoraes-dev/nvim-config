@@ -1,5 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/emanuelmoraes/projetos/ShellScript-Utility/install'
+let g:netrw_dirhist_8='/home/emanuelmoraes/.config/nvim'
+let g:netrw_dirhist_7='/home/emanuelmoraes/projetos/ShellScript-Utility/install'
+let g:netrw_dirhist_6='/home/emanuelmoraes/projetos/ShellScript-Utility/bin'
+let g:netrw_dirhist_5='/home/emanuelmoraes/projetos/ShellScript-Utility'
 let g:netrw_dirhist_4='/home/emanuelmoraes/projetos/ShellScript-Utility/install'
 let g:netrw_dirhist_3='/home/emanuelmoraes/.config/nvim'
 let g:netrw_dirhist_2='/home/emanuelmoraes/.config/nvim/plugged'

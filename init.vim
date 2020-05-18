@@ -8,8 +8,9 @@ Plug 'sheerun/vim-polyglot' " syntax
 Plug 'w0rp/ale' " eslint
 Plug 'jiangmiao/auto-pairs' " add pairs
 Plug 'yuttie/comfortable-motion.vim' " confortable scroll
+Plug 'tomtom/tcomment_vim' " comment
 
-" ========== ultisnips ==========
+" ========== ultisnips (create custom snippets) ==========
 
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
