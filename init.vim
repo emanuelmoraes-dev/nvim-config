@@ -20,32 +20,32 @@ Plug 'junegunn/fzf.vim'
 
 " ncm2 (auto complete)
 
-Plug 'ncm2/ncm2'
-Plug 'roxma/nvim-yarp'
-
-autocmd BufEnter * call ncm2#enable_for_buffer() " enable ncm2 for all buffers
-
-set completeopt=noinsert,menuone,noselect " :help Ncm2PopupOpen for more information
-
-" list of sources: https://github.com/ncm2/ncm2/wiki
-
-" general purpose
-Plug 'ncm2/ncm2-bufword'
-Plug 'ncm2/ncm2-path'
-Plug 'ncm2/ncm2-github'
-Plug 'ncm2/ncm2-tmux'
-Plug 'ncm2/ncm2-tagprefix'
-Plug 'filipekiss/ncm2-look.vim'
-Plug 'ncm2/ncm2-gtags'
-Plug 'ncm2/ncm2-syntax'
-Plug 'Shougo/neco-syntax'
-Plug 'ncm2/ncm2-neoinclude'
-Plug 'Shougo/neoinclude.vim'
-Plug 'wellle/tmux-complete.vim'
-Plug 'yuki-ycino/ncm2-dictionary'
-Plug 'fgrsnau/ncm2-aspell'
-Plug 'fgrsnau/ncm2-otherbuf'
-Plug 'loonies/ncm2-ledger'
+" Plug 'ncm2/ncm2'
+" Plug 'roxma/nvim-yarp'
+"
+" autocmd BufEnter * call ncm2#enable_for_buffer() " enable ncm2 for all buffers
+"
+" set completeopt=noinsert,menuone,noselect " :help Ncm2PopupOpen for more information
+"
+" " list of sources: https://github.com/ncm2/ncm2/wiki
+"
+" " general purpose
+" Plug 'ncm2/ncm2-bufword'
+" Plug 'ncm2/ncm2-path'
+" Plug 'ncm2/ncm2-github'
+" Plug 'ncm2/ncm2-tmux'
+" Plug 'ncm2/ncm2-tagprefix'
+" Plug 'filipekiss/ncm2-look.vim'
+" Plug 'ncm2/ncm2-gtags'
+" Plug 'ncm2/ncm2-syntax'
+" Plug 'Shougo/neco-syntax'
+" Plug 'ncm2/ncm2-neoinclude'
+" Plug 'Shougo/neoinclude.vim'
+" Plug 'wellle/tmux-complete.vim'
+" Plug 'yuki-ycino/ncm2-dictionary'
+" Plug 'fgrsnau/ncm2-aspell'
+" Plug 'fgrsnau/ncm2-otherbuf'
+" Plug 'loonies/ncm2-ledger'
 "Plug 'ncm2-yoink'
 
 " CSS
@@ -120,8 +120,9 @@ nnoremap <leader>mc :set mouse=c<cr>
 
 " ---------- config ----------
 
+" UltiSnips
 let g:UltiSnipsEditSplit = 'vertical'
 let g:UltiSnipsSnippetsDir = '~/.config/nvim/UltiSnips'
-
 let g:UltiSnipsJumpForwardTrigger = "<c-j>"
 let g:UltiSnipsJumpBackwardTrigger = "<c-k>"
+
