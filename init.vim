@@ -114,6 +114,8 @@ nnoremap <leader>bk :Vex<cr><c-w>K
 nnoremap <leader>bl :Vex<cr><c-w>L
 nnoremap <leader>vr :vertical resize<space>
 nnoremap <leader>hr :resize<space>
+nnoremap <leader>vR :vertical split<cr>:q<cr>
+nnoremap <leader>hR :split<cr>:q<cr>
 nnoremap <leader>sn :UltiSnipsEdit<cr>
 nnoremap <leader>ma :set mouse=a<cr>
 nnoremap <leader>mc :set mouse=c<cr>

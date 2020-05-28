@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/emanuelmoraes/projetos/bentham/bentham-frontend-bid/src/view'
 let g:netrw_dirhist_1='/home/emanuelmoraes/projetos/bentham/bentham-backend-bid/src/main/resources/db/migration'
 let g:netrw_dirhist_0='/home/emanuelmoraes/projetos/bentham/bentham-backend-bid/src/main/resources/db'
 let g:netrw_dirhist_9='/home/emanuelmoraes/projetos/bentham/bentham-backend-bid/src/main/resources'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_6='/home/emanuelmoraes/projetos/bentham/bentham-backend-bid/
 let g:netrw_dirhist_5='/home/emanuelmoraes/projetos/bentham/bentham-backend-bid/src/main/java/br/com'
 let g:netrw_dirhist_4='/home/emanuelmoraes/projetos/bentham/bentham-backend-bid/src/main/java/br/com/bentham'
 let g:netrw_dirhist_3='/home/emanuelmoraes/projetos/bentham/bentham-backend-bid/src/main/java/br/com/bentham/bid'
-let g:netrw_dirhist_2='/home/emanuelmoraes/projetos/bentham/bentham-backend-bid/src/main/java/br/com/bentham/bid/view'
