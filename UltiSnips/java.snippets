@@ -30,7 +30,7 @@ public void set$3($1 $2) {
 }
 endsnippet
 
-snippet jdprop "Create attribute padronizado and get and set in java" b
+snippet jdprop "Create a standardized attribute and get and set in java" b
 private $1 $2;$0
 
 public $1 get$1() {
@@ -40,6 +40,10 @@ public $1 get$1() {
 public void set$1($1 $2) {
 	this.$2 = $2;
 }
+endsnippet
+
+snippet jassing "Create a property assignment with a local variable with the same name in java" b
+this.$1 = $1;$0
 endsnippet
 
 snippet sysout "System.out.println" b
