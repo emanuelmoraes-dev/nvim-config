@@ -83,9 +83,9 @@ call plug#end()
 " ---------- themes ----------
 
 colorscheme gruvbox
-"set background=dark
-highlight Normal ctermbg=none
-highlight NonText ctermbg=none
+set background=dark
+"highlight Normal ctermbg=none
+"highlight NonText ctermbg=none
 
 " ---------- commands ----------
 
