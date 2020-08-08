@@ -83,9 +83,9 @@ call plug#end()
 " ---------- themes ----------
 
 colorscheme gruvbox
-set background=dark
-"highlight Normal ctermbg=none
-"highlight NonText ctermbg=none
+"set background=dark
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
 
 " ---------- commands ----------
 
@@ -121,6 +121,10 @@ nnoremap <leader>hR :split<cr>:q<cr>
 nnoremap <leader>sn :UltiSnipsEdit<cr>
 nnoremap <leader>ma :set mouse=a<cr>
 nnoremap <leader>mc :set mouse=c<cr>
+nnoremap <leader>cc :!make clean<cr>
+nnoremap <leader>cm :!make<cr>
+nnoremap <leader>cx :!make && ./bin/
+nnoremap <leader>c<cr> :!make clean && make && ./bin/
 
 " ---------- config ----------
 
