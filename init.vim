@@ -123,8 +123,7 @@ nnoremap <leader>ma :set mouse=a<cr>
 nnoremap <leader>mc :set mouse=c<cr>
 nnoremap <leader>cc :!make clean<cr>
 nnoremap <leader>cm :!make<cr>
-nnoremap <leader>cx :!./bin/
-nnoremap <leader>cr :!make 1> /dev/null && ./bin/
+nnoremap <leader>cx :!make 1> /dev/null && ./bin/
 nnoremap <leader>c<cr> :!make clean 1> /dev/null && make 1> /dev/null && ./bin/
 
 " ---------- config ----------
