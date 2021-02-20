@@ -110,6 +110,7 @@ nnoremap <leader>sc :source ~/.config/nvim/init.vim<cr>
 nnoremap <leader>pi :PlugInstall<cr>
 nnoremap <leader>pp :Files<cr>
 nnoremap <leader>ff :Ag<space>
+nnoremap <leader>ee :E<cr>
 nnoremap <leader>bh :Vex<cr><c-w>H
 nnoremap <leader>bj :Vex<cr><c-w>J
 nnoremap <leader>bk :Vex<cr><c-w>K
