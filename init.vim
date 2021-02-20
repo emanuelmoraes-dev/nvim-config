@@ -82,8 +82,8 @@ call plug#end()
 
 " ---------- themes ----------
 
-colorscheme gruvbox
-"set background=dark
+"colorscheme gruvbox
+set background=dark
 highlight Normal ctermbg=none
 highlight NonText ctermbg=none
 
@@ -114,6 +114,7 @@ nnoremap <leader>bh :Vex<cr><c-w>H
 nnoremap <leader>bj :Vex<cr><c-w>J
 nnoremap <leader>bk :Vex<cr><c-w>K
 nnoremap <leader>bl :Vex<cr><c-w>L
+nnoremap <leader><tab>  :W<cr>
 nnoremap <leader>vr :vertical resize<space>
 nnoremap <leader>hr :resize<space>
 nnoremap <leader>vR :vertical split<cr>:q<cr>
